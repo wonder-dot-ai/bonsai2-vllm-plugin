@@ -1,0 +1,33 @@
+{
+  "prism_revision": "d8f26eec76da6d09bb708bcba51ef64b8cd868a3",
+  "prism_commit": "d8f26eec7",
+  "harness_sha256": "08a40b8ba69545e337e67517beb1b4a00dccd8173e27c875b29979717a5aab6d",
+  "seed": 20260918,
+  "synthetic_weights": true,
+  "fixtures": {
+    "gate": {
+      "sha256": "adbc0653443a712f5a969a0e5515a4e68dce1bb3319e1d7902c90b2325535f04",
+      "rotation": {
+        "block_size": 1024,
+        "perm_nk": 1,
+        "perm_rep": 1
+      }
+    },
+    "down": {
+      "sha256": "5061659f8ab3a17408f3962d866fb39af12b237c4a6da7612be14abb52506ee1",
+      "rotation": {
+        "block_size": 1024,
+        "perm_nk": 1,
+        "perm_rep": 1
+      }
+    },
+    "ssm_out": {
+      "sha256": "c73c18f020c8e357701c6bae8a766f3b2df9148c3ee2ce1653022c4041bf95e1",
+      "rotation": {
+        "block_size": 1024,
+        "perm_nk": 16,
+        "perm_rep": 3
+      }
+    }
+  }
+}

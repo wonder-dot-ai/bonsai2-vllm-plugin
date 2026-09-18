@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vllm-bonsai2"
+version = "0.1.0"
+description = "Out-of-tree vLLM support for Bonsai 2 packed ternary checkpoints"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "gguf @ git+https://github.com/PrismML-Eng/llama.cpp.git@d8f26eec76da6d09bb708bcba51ef64b8cd868a3#subdirectory=gguf-py",
+    "huggingface-hub>=1.32.0",
+    "numpy>=1.26",
+    "safetensors>=0.6.2",
+    "vllm==0.29.0",
+]
+
+[project.urls]
+Repository = "https://github.com/wonder-dot-ai/bonsai2-vllm-plugin"
+Model = "https://huggingface.co/the-sweater-cat/bonsai-2-pq2"
+
+[project.scripts]
+bonsai2-vllm = "vllm_bonsai2.cli:main"
+bonsai2-serve = "vllm_bonsai2.serving:main"
+
+[project.entry-points."vllm.general_plugins"]
+bonsai2 = "vllm_bonsai2.plugin:register"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4",
+    "ruff>=0.12",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vllm_bonsai2"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

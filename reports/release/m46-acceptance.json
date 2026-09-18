@@ -1,0 +1,76 @@
+{
+  "original_benchmark_150_passed": true,
+  "expanded_benchmark_150_passed": false,
+  "numerical_gate_passed": true,
+  "max_total_variation": 0.018007763066089772,
+  "runtime_hashes_match": true,
+  "checks": [
+    {
+      "workload": "benchmark",
+      "cases": [
+        {
+          "name": "raw_0",
+          "speculative_tps": 157.81596590974252,
+          "no_draft_tps": 75.18300265306252,
+          "token_ids_equal": true,
+          "first_difference": null,
+          "stable_across_repeats": true
+        },
+        {
+          "name": "raw_1",
+          "speculative_tps": 162.34967754866318,
+          "no_draft_tps": 75.10703358132605,
+          "token_ids_equal": true,
+          "first_difference": null,
+          "stable_across_repeats": true
+        }
+      ],
+      "aggregate_tps": 160.05072187457316
+    },
+    {
+      "workload": "extra-benchmark",
+      "cases": [
+        {
+          "name": "code",
+          "speculative_tps": 171.83349468053703,
+          "no_draft_tps": 75.03549523336673,
+          "token_ids_equal": true,
+          "first_difference": null,
+          "stable_across_repeats": true
+        },
+        {
+          "name": "korean",
+          "speculative_tps": 87.23780046926402,
+          "no_draft_tps": 75.04961364326267,
+          "token_ids_equal": false,
+          "first_difference": 33,
+          "stable_across_repeats": true
+        },
+        {
+          "name": "reasoning",
+          "speculative_tps": 134.57107136845784,
+          "no_draft_tps": 74.94402909117505,
+          "token_ids_equal": true,
+          "first_difference": null,
+          "stable_across_repeats": true
+        },
+        {
+          "name": "prose",
+          "speculative_tps": 89.85071193321896,
+          "no_draft_tps": 75.06237290274683,
+          "token_ids_equal": false,
+          "first_difference": 37,
+          "stable_across_repeats": true
+        }
+      ],
+      "aggregate_tps": 111.59749654540954
+    }
+  ],
+  "original_benchmark_speculation": {
+    "rounds": 220.0,
+    "proposed": 1540.0,
+    "accepted": 808.0,
+    "acceptance_rate": 0.5246753246753246,
+    "mean_accepted_length_with_bonus": 4.672727272727273
+  }
+}

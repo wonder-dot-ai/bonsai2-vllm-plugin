@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "counts": {
+    "packed_byte_exact": 402,
+    "dense_exact": 449,
+    "dense_numerical": 0
+  },
+  "max_inverse_transform_abs_errors": {}
+}

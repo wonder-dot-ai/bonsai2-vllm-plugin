@@ -1,0 +1,8 @@
+{
+  "wheel_import": true,
+  "plugin_registry": true,
+  "pinned_gguf_pq2": true,
+  "unit_tests_passed": 119,
+  "m5_base_command_parity": true,
+  "wheel_environment": "separate venv with dependencies synced from uv.lock; not a second machine"
+}

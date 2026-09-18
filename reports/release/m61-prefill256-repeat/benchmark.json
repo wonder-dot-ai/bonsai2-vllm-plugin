@@ -1,0 +1,3935 @@
+{
+  "engine": "integer",
+  "model": "bonsai2",
+  "warmup_requests": 1,
+  "timed_requests_per_case": 3,
+  "timing": "HTTP wall time; decode excludes time and tokens in first token chunk",
+  "cases": [
+    {
+      "name": "code",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        7734,
+        264,
+        12654,
+        709,
+        421,
+        78161,
+        48142,
+        26126,
+        13,
+        79091,
+        1141,
+        55404,
+        11,
+        854,
+        22373,
+        11,
+        321,
+        2830,
+        6813,
+        364,
+        4147,
+        1879,
+        11,
+        29588,
+        35141,
+        11,
+        321,
+        23283,
+        26126,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "input_tokens": 42,
+      "output_tokens": 128,
+      "seconds": [
+        0.7451281729991024,
+        0.7478964649999398,
+        0.7481826540024485
+      ],
+      "median_seconds": 0.7478964649999398,
+      "tokens_per_second": 171.14668405340078,
+      "median_decode_tokens_per_second": 228.61939657293678,
+      "median_ttft_seconds": 0.19190038200031267,
+      "streaming": [
+        {
+          "ttft_seconds": 0.18984748799994122,
+          "decode_tokens": 127,
+          "decode_seconds": 0.5547957320013666,
+          "chunks": [
+            {
+              "seconds": 0.18984748799994122,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.20505896499889786,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.22740458800035412,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.2500813990009192,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.2722152360001928,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.29472353199889767,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.317484716000763,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.33966614400196704,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.36205353799959994,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.3845567940006731,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.40730298700145795,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.4296749400018598,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.45250680599929183,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.47471864399994956,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.49688715299998876,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.5196088640004746,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5416294989991002,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.564649799001927,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.5867780449989368,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.6096971229999326,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.632089367001754,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6546268739984953,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6776877650008828,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.6996604380001372,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7225815249985317,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7446432200013078,
+              "tokens": 8
+            }
+          ]
+        },
+        {
+          "ttft_seconds": 0.19190038200031267,
+          "decode_tokens": 127,
+          "decode_seconds": 0.5555084209991037,
+          "chunks": [
+            {
+              "seconds": 0.19190038200031267,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.20748215799903846,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.22953495399997337,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.2523722789992462,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.2740351729989925,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.29726007800127263,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.3195593500022369,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.3418281209997076,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.36453314300160855,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.3865306160005275,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.40932317999977386,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.4316687419996015,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.45459439900150755,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.4772170100004587,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.49946798000019044,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.5215037839989236,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5442407570008072,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.5666601910015743,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.5894600249994255,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.6116958650018205,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.6345695609998074,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6566793980018701,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6795471139994333,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7022219150021556,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7249144359993807,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7474088029994164,
+              "tokens": 8
+            }
+          ]
+        },
+        {
+          "ttft_seconds": 0.19210400700103492,
+          "decode_tokens": 127,
+          "decode_seconds": 0.5555902839987539,
+          "chunks": [
+            {
+              "seconds": 0.19210400700103492,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.2076039320018026,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.22959463599909213,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.25231813800201053,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.2746798510015651,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.2973543510015588,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.3196956350002438,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.34177529999942635,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.3645254830007616,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.3866647200011357,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.40957110700037447,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.43206299300072715,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.45469203399989055,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.4769273029996839,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.49960962499972084,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.5217884920020879,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5442471080023097,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.566801814999053,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.5892451010004152,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.611936601002526,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.6346956550005416,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6567430300019623,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6796948880000855,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.702328237999609,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7248064650011656,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7476942909997888,
+              "tokens": 8
+            }
+          ]
+        }
+      ],
+      "outputs": [
+        "# Merging Overlapping Intervals\n\n## Implementation\n\n```python\nfrom typing import List, Tuple\n\ndef merge_intervals(intervals: List[Tuple[int, int]]) -> List[Tuple[int, int]]:\n    \"\"\"\n    Merge all overlapping intervals.\n    \n    Two intervals [a, b] and [c, d] overlap if a <= d and c <= b.\n    Touching endpoints (e.g., [1, 4] and [4, 5]) are considered overlapping\n    and should be merged into [1, 5].\n    \n    Args:\n        intervals: A list",
+        "# Merging Overlapping Intervals\n\n## Implementation\n\n```python\nfrom typing import List, Tuple\n\ndef merge_intervals(intervals: List[Tuple[int, int]]) -> List[Tuple[int, int]]:\n    \"\"\"\n    Merge all overlapping intervals.\n    \n    Two intervals [a, b] and [c, d] overlap if a <= d and c <= b.\n    Touching endpoints (e.g., [1, 4] and [4, 5]) are considered overlapping\n    and should be merged into [1, 5].\n    \n    Args:\n        intervals: A list",
+        "# Merging Overlapping Intervals\n\n## Implementation\n\n```python\nfrom typing import List, Tuple\n\ndef merge_intervals(intervals: List[Tuple[int, int]]) -> List[Tuple[int, int]]:\n    \"\"\"\n    Merge all overlapping intervals.\n    \n    Two intervals [a, b] and [c, d] overlap if a <= d and c <= b.\n    Touching endpoints (e.g., [1, 4] and [4, 5]) are considered overlapping\n    and should be merged into [1, 5].\n    \n    Args:\n        intervals: A list"
+      ],
+      "token_ids": [
+        [
+          2,
+          380,
+          92007,
+          5875,
+          87502,
+          1286,
+          40798,
+          271,
+          550,
+          29806,
+          271,
+          71093,
+          12305,
+          198,
+          1445,
+          18904,
+          1120,
+          1697,
+          11,
+          23846,
+          271,
+          727,
+          10562,
+          87682,
+          1494,
+          40798,
+          25,
+          1697,
+          19723,
+          5871,
+          18078,
+          11,
+          514,
+          28649,
+          1411,
+          1697,
+          19723,
+          5871,
+          18078,
+          11,
+          514,
+          4891,
+          25,
+          198,
+          262,
+          4071,
+          198,
+          262,
+          38754,
+          660,
+          48142,
+          26126,
+          13,
+          198,
+          1031,
+          262,
+          8771,
+          26126,
+          498,
+          64,
+          11,
+          292,
+          60,
+          321,
+          498,
+          66,
+          11,
+          293,
+          60,
+          26370,
+          413,
+          264,
+          2564,
+          293,
+          321,
+          272,
+          2564,
+          292,
+          13,
+          198,
+          262,
+          18752,
+          286,
+          35141,
+          318,
+          68,
+          1257,
+          2487,
+          498,
+          16,
+          11,
+          220,
+          19,
+          60,
+          321,
+          498,
+          19,
+          11,
+          220,
+          20,
+          2387,
+          513,
+          6306,
+          48142,
+          198,
+          262,
+          321,
+          1220,
+          381,
+          25170,
+          1083,
+          498,
+          16,
+          11,
+          220,
+          20,
+          906,
+          198,
+          1031,
+          262,
+          17167,
+          25,
+          198,
+          285,
+          26126,
+          25,
+          357,
+          1103
+        ],
+        [
+          2,
+          380,
+          92007,
+          5875,
+          87502,
+          1286,
+          40798,
+          271,
+          550,
+          29806,
+          271,
+          71093,
+          12305,
+          198,
+          1445,
+          18904,
+          1120,
+          1697,
+          11,
+          23846,
+          271,
+          727,
+          10562,
+          87682,
+          1494,
+          40798,
+          25,
+          1697,
+          19723,
+          5871,
+          18078,
+          11,
+          514,
+          28649,
+          1411,
+          1697,
+          19723,
+          5871,
+          18078,
+          11,
+          514,
+          4891,
+          25,
+          198,
+          262,
+          4071,
+          198,
+          262,
+          38754,
+          660,
+          48142,
+          26126,
+          13,
+          198,
+          1031,
+          262,
+          8771,
+          26126,
+          498,
+          64,
+          11,
+          292,
+          60,
+          321,
+          498,
+          66,
+          11,
+          293,
+          60,
+          26370,
+          413,
+          264,
+          2564,
+          293,
+          321,
+          272,
+          2564,
+          292,
+          13,
+          198,
+          262,
+          18752,
+          286,
+          35141,
+          318,
+          68,
+          1257,
+          2487,
+          498,
+          16,
+          11,
+          220,
+          19,
+          60,
+          321,
+          498,
+          19,
+          11,
+          220,
+          20,
+          2387,
+          513,
+          6306,
+          48142,
+          198,
+          262,
+          321,
+          1220,
+          381,
+          25170,
+          1083,
+          498,
+          16,
+          11,
+          220,
+          20,
+          906,
+          198,
+          1031,
+          262,
+          17167,
+          25,
+          198,
+          285,
+          26126,
+          25,
+          357,
+          1103
+        ],
+        [
+          2,
+          380,
+          92007,
+          5875,
+          87502,
+          1286,
+          40798,
+          271,
+          550,
+          29806,
+          271,
+          71093,
+          12305,
+          198,
+          1445,
+          18904,
+          1120,
+          1697,
+          11,
+          23846,
+          271,
+          727,
+          10562,
+          87682,
+          1494,
+          40798,
+          25,
+          1697,
+          19723,
+          5871,
+          18078,
+          11,
+          514,
+          28649,
+          1411,
+          1697,
+          19723,
+          5871,
+          18078,
+          11,
+          514,
+          4891,
+          25,
+          198,
+          262,
+          4071,
+          198,
+          262,
+          38754,
+          660,
+          48142,
+          26126,
+          13,
+          198,
+          1031,
+          262,
+          8771,
+          26126,
+          498,
+          64,
+          11,
+          292,
+          60,
+          321,
+          498,
+          66,
+          11,
+          293,
+          60,
+          26370,
+          413,
+          264,
+          2564,
+          293,
+          321,
+          272,
+          2564,
+          292,
+          13,
+          198,
+          262,
+          18752,
+          286,
+          35141,
+          318,
+          68,
+          1257,
+          2487,
+          498,
+          16,
+          11,
+          220,
+          19,
+          60,
+          321,
+          498,
+          19,
+          11,
+          220,
+          20,
+          2387,
+          513,
+          6306,
+          48142,
+          198,
+          262,
+          321,
+          1220,
+          381,
+          25170,
+          1083,
+          498,
+          16,
+          11,
+          220,
+          20,
+          906,
+          198,
+          1031,
+          262,
+          17167,
+          25,
+          198,
+          285,
+          26126,
+          25,
+          357,
+          1103
+        ]
+      ],
+      "speculative_counter_delta": {
+        "vllm:spec_decode_num_drafts_total{engine=\"0\",model_name=\"bonsai2\"}": 100.0,
+        "vllm:spec_decode_num_draft_tokens_total{engine=\"0\",model_name=\"bonsai2\"}": 700.0,
+        "vllm:spec_decode_num_accepted_tokens_total{engine=\"0\",model_name=\"bonsai2\"}": 408.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"0\"}": 92.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"1\"}": 80.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"2\"}": 64.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"3\"}": 48.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"4\"}": 44.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"5\"}": 40.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"6\"}": 40.0
+      }
+    },
+    {
+      "name": "reasoning",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        32,
+        2015,
+        682,
+        220,
+        18,
+        7106,
+        13,
+        5261,
+        357,
+        4829,
+        220,
+        19,
+        3979,
+        11,
+        417,
+        4829,
+        220,
+        18,
+        3979,
+        1238,
+        357,
+        11,
+        351,
+        4829,
+        220,
+        20,
+        3979,
+        27222,
+        11,
+        414,
+        4829,
+        220,
+        17,
+        3979,
+        1238,
+        2107,
+        417,
+        321,
+        351,
+        13,
+        79091,
+        264,
+        9412,
+        421,
+        20537,
+        4603,
+        9463,
+        854,
+        321,
+        11774,
+        3069,
+        424,
+        4021,
+        381,
+        22602,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "input_tokens": 68,
+      "output_tokens": 128,
+      "seconds": [
+        0.9518793649986037,
+        0.9528847919973487,
+        0.9522992970014457
+      ],
+      "median_seconds": 0.9522992970014457,
+      "tokens_per_second": 134.41152419521916,
+      "median_decode_tokens_per_second": 167.56330671688926,
+      "median_ttft_seconds": 0.19337406100021326,
+      "streaming": [
+        {
+          "ttft_seconds": 0.19333997099965927,
+          "decode_tokens": 127,
+          "decode_seconds": 0.7579224979999708,
+          "chunks": [
+            {
+              "seconds": 0.19333997099965927,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.20845757499773754,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.23097988199879183,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.25289042399890604,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.275986605000071,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.29816764399947715,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.32092993699916406,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.3430148019979242,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.3656874539992714,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.38805198699992616,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.4106570259973523,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.4330752699970617,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.45550775499941665,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.47765862199958065,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5002671209986147,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5224877820000984,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5452373640000587,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.5677465609987848,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.590583635999792,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.6129483089971473,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6356018189981114,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6580898669999442,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.6807278159976704,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7029641459994309,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.7253386589982256,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.7481064819985477,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.7707041909998225,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7932115289986541,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.8157392859975516,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.8383779859977949,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8609512349976285,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.8834559919996536,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9057240309994086,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.9288729750005587,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.9512624689996301,
+              "tokens": 2
+            }
+          ]
+        },
+        {
+          "ttft_seconds": 0.19469673599814996,
+          "decode_tokens": 127,
+          "decode_seconds": 0.7575931999999739,
+          "chunks": [
+            {
+              "seconds": 0.19469673599814996,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.20960189399920637,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.23216556300030788,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.2547276099976443,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.27721250700051314,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.2998923579980328,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.3221265680003853,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.3442318339984922,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.3665140449993487,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.389136554000288,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.41216745599740534,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.4341440579992195,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.4567061960005958,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.4791790419985773,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5019365160005691,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5241684549982892,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5469389789977868,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.5696096200008469,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.5920160239984398,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.6141416699974798,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6368043519978528,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6592878869996639,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.6819335779982794,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7040875749989937,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.7267952479996893,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.7494981589989038,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.7720994489973236,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7946839670003101,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.8171999039986986,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.8389824429978034,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8614993089977361,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.884228491999238,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9070268069990561,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.9293741279980168,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.9522899359981238,
+              "tokens": 2
+            }
+          ]
+        },
+        {
+          "ttft_seconds": 0.19337406100021326,
+          "decode_tokens": 127,
+          "decode_seconds": 0.7583231700009492,
+          "chunks": [
+            {
+              "seconds": 0.19337406100021326,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.20835387199986144,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.2311789770028554,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.25345765800011577,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.2761525800015079,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.2983987590014294,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.3207547420024639,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.3432469180006592,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.36585675700189313,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3882065510006214,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.41074588800256606,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.43348094100292656,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.45581997300178045,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.47826044800240197,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5006147010026325,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5231290090014227,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5458606710017193,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.568195193001884,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.5911366310028825,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.6130903530029173,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6360764630007907,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6586953530022583,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.6809947239999019,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7036182740012009,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.726326866002637,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.7487075099998037,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.7712775380023231,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7935192879995157,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.8162468700029422,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.8386650339998596,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8610406670013617,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.8833480300017982,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9064927530016575,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.9290815519998432,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.9516972310011624,
+              "tokens": 2
+            }
+          ]
+        }
+      ],
+      "outputs": [
+        "To minimize the completion time (makespan) for this project, we must analyze the dependencies and the parallelism available among the tasks.\n\n### 1. Task Analysis and Dependencies\n\nLet's break down the tasks based on the problem description:\n\n*   **Task A**: Duration = 4 hours. No predecessors.\n*   **Task B**: Duration = 3 hours. Predecessor: A. (Must start after A finishes).\n*   **Task C**: Duration = 5 hours. No predecessors. (Independent of A and B).\n*   **Task D**: Duration = 2 hours. Pre",
+        "To minimize the completion time (makespan) for this project, we must analyze the dependencies and the parallelism available among the tasks.\n\n### 1. Task Analysis and Dependencies\n\nLet's break down the tasks based on the problem description:\n\n*   **Task A**: Duration = 4 hours. No predecessors.\n*   **Task B**: Duration = 3 hours. Predecessor: A. (Must start after A finishes).\n*   **Task C**: Duration = 5 hours. No predecessors. (Independent of A and B).\n*   **Task D**: Duration = 2 hours. Pre",
+        "To minimize the completion time (makespan) for this project, we must analyze the dependencies and the parallelism available among the tasks.\n\n### 1. Task Analysis and Dependencies\n\nLet's break down the tasks based on the problem description:\n\n*   **Task A**: Duration = 4 hours. No predecessors.\n*   **Task B**: Duration = 3 hours. Predecessor: A. (Must start after A finishes).\n*   **Task C**: Duration = 5 hours. No predecessors. (Independent of A and B).\n*   **Task D**: Duration = 2 hours. Pre"
+      ],
+      "token_ids": [
+        [
+          1206,
+          28377,
+          279,
+          9463,
+          854,
+          318,
+          76940,
+          822,
+          8,
+          364,
+          411,
+          2313,
+          11,
+          567,
+          1902,
+          22903,
+          279,
+          18948,
+          321,
+          279,
+          14835,
+          2074,
+          2420,
+          4082,
+          279,
+          8806,
+          13,
+          271,
+          13962,
+          220,
+          16,
+          13,
+          5261,
+          17775,
+          321,
+          77714,
+          271,
+          9764,
+          579,
+          1387,
+          1441,
+          279,
+          8806,
+          3018,
+          383,
+          279,
+          3377,
+          3874,
+          25,
+          271,
+          9,
+          256,
+          2972,
+          6065,
+          357,
+          92217,
+          20400,
+          283,
+          220,
+          19,
+          3979,
+          13,
+          2233,
+          59367,
+          13,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          417,
+          92217,
+          20400,
+          283,
+          220,
+          18,
+          3979,
+          13,
+          4807,
+          26048,
+          269,
+          25,
+          357,
+          13,
+          318,
+          30733,
+          1151,
+          1238,
+          357,
+          31941,
+          553,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          351,
+          92217,
+          20400,
+          283,
+          220,
+          20,
+          3979,
+          13,
+          2233,
+          59367,
+          13,
+          318,
+          74194,
+          314,
+          357,
+          321,
+          417,
+          553,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          414,
+          92217,
+          20400,
+          283,
+          220,
+          17,
+          3979,
+          13,
+          4807
+        ],
+        [
+          1206,
+          28377,
+          279,
+          9463,
+          854,
+          318,
+          76940,
+          822,
+          8,
+          364,
+          411,
+          2313,
+          11,
+          567,
+          1902,
+          22903,
+          279,
+          18948,
+          321,
+          279,
+          14835,
+          2074,
+          2420,
+          4082,
+          279,
+          8806,
+          13,
+          271,
+          13962,
+          220,
+          16,
+          13,
+          5261,
+          17775,
+          321,
+          77714,
+          271,
+          9764,
+          579,
+          1387,
+          1441,
+          279,
+          8806,
+          3018,
+          383,
+          279,
+          3377,
+          3874,
+          25,
+          271,
+          9,
+          256,
+          2972,
+          6065,
+          357,
+          92217,
+          20400,
+          283,
+          220,
+          19,
+          3979,
+          13,
+          2233,
+          59367,
+          13,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          417,
+          92217,
+          20400,
+          283,
+          220,
+          18,
+          3979,
+          13,
+          4807,
+          26048,
+          269,
+          25,
+          357,
+          13,
+          318,
+          30733,
+          1151,
+          1238,
+          357,
+          31941,
+          553,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          351,
+          92217,
+          20400,
+          283,
+          220,
+          20,
+          3979,
+          13,
+          2233,
+          59367,
+          13,
+          318,
+          74194,
+          314,
+          357,
+          321,
+          417,
+          553,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          414,
+          92217,
+          20400,
+          283,
+          220,
+          17,
+          3979,
+          13,
+          4807
+        ],
+        [
+          1206,
+          28377,
+          279,
+          9463,
+          854,
+          318,
+          76940,
+          822,
+          8,
+          364,
+          411,
+          2313,
+          11,
+          567,
+          1902,
+          22903,
+          279,
+          18948,
+          321,
+          279,
+          14835,
+          2074,
+          2420,
+          4082,
+          279,
+          8806,
+          13,
+          271,
+          13962,
+          220,
+          16,
+          13,
+          5261,
+          17775,
+          321,
+          77714,
+          271,
+          9764,
+          579,
+          1387,
+          1441,
+          279,
+          8806,
+          3018,
+          383,
+          279,
+          3377,
+          3874,
+          25,
+          271,
+          9,
+          256,
+          2972,
+          6065,
+          357,
+          92217,
+          20400,
+          283,
+          220,
+          19,
+          3979,
+          13,
+          2233,
+          59367,
+          13,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          417,
+          92217,
+          20400,
+          283,
+          220,
+          18,
+          3979,
+          13,
+          4807,
+          26048,
+          269,
+          25,
+          357,
+          13,
+          318,
+          30733,
+          1151,
+          1238,
+          357,
+          31941,
+          553,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          351,
+          92217,
+          20400,
+          283,
+          220,
+          20,
+          3979,
+          13,
+          2233,
+          59367,
+          13,
+          318,
+          74194,
+          314,
+          357,
+          321,
+          417,
+          553,
+          198,
+          9,
+          256,
+          2972,
+          6065,
+          414,
+          92217,
+          20400,
+          283,
+          220,
+          17,
+          3979,
+          13,
+          4807
+        ]
+      ],
+      "speculative_counter_delta": {
+        "vllm:spec_decode_num_drafts_total{engine=\"0\",model_name=\"bonsai2\"}": 136.0,
+        "vllm:spec_decode_num_draft_tokens_total{engine=\"0\",model_name=\"bonsai2\"}": 952.0,
+        "vllm:spec_decode_num_accepted_tokens_total{engine=\"0\",model_name=\"bonsai2\"}": 396.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"0\"}": 104.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"1\"}": 68.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"2\"}": 60.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"3\"}": 52.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"4\"}": 44.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"5\"}": 40.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"6\"}": 28.0
+      }
+    },
+    {
+      "name": "summary",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        8917,
+        5437,
+        537,
+        279,
+        2614,
+        2313,
+        1830,
+        303,
+        13983,
+        6163,
+        13,
+        62366,
+        279,
+        1822,
+        2961,
+        11,
+        9376,
+        14832,
+        11,
+        321,
+        2250,
+        3050,
+        1727,
+        5975,
+        13,
+        3054,
+        524,
+        16525,
+        12688,
+        13,
+        8001,
+        25,
+        357,
+        6522,
+        12152,
+        264,
+        491,
+        26770,
+        1785,
+        364,
+        4590,
+        5381,
+        506,
+        2943,
+        22371,
+        13,
+        16454,
+        14789,
+        220,
+        16,
+        17,
+        15,
+        15,
+        38731,
+        13,
+        60480,
+        8318,
+        854,
+        10729,
+        494,
+        11292,
+        4276,
+        310,
+        4590,
+        4276,
+        13,
+        20723,
+        38731,
+        24148,
+        494,
+        220,
+        19,
+        23,
+        310,
+        220,
+        16,
+        23,
+        13,
+        8771,
+        22371,
+        10015,
+        71934,
+        3790,
+        680,
+        1098,
+        2261,
+        279,
+        2018,
+        1936,
+        13,
+        561,
+        2015,
+        3568,
+        449,
+        25331,
+        6951,
+        11,
+        694,
+        21814,
+        10379,
+        6922,
+        3102,
+        948,
+        29270,
+        4523,
+        13,
+        77505,
+        7262,
+        9469,
+        13232,
+        10331,
+        694,
+        1467,
+        524,
+        3311,
+        4034,
+        12361,
+        13,
+        15676,
+        7009,
+        513,
+        4434,
+        11,
+        1345,
+        1132,
+        4139,
+        314,
+        279,
+        8729,
+        5395,
+        599,
+        17637,
+        4706,
+        13,
+        561,
+        8818,
+        7786,
+        557,
+        220,
+        16,
+        23,
+        15,
+        15,
+        15,
+        10867,
+        321,
+        4880,
+        9862,
+        557,
+        220,
+        16,
+        22,
+        17,
+        15,
+        15,
+        10867,
+        13,
+        561,
+        31117,
+        1809,
+        1902,
+        9973,
+        3315,
+        310,
+        8952,
+        279,
+        1785,
+        1727,
+        2182,
+        13,
+        561,
+        1830,
+        38491,
+        25720,
+        38385,
+        11988,
+        321,
+        7262,
+        12964,
+        494,
+        680,
+        1098,
+        1518,
+        14046,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "input_tokens": 197,
+      "output_tokens": 128,
+      "seconds": [
+        0.8409528560005128,
+        0.8420904360027635,
+        0.8436947579975822
+      ],
+      "median_seconds": 0.8420904360027635,
+      "tokens_per_second": 152.00267634862433,
+      "median_decode_tokens_per_second": 196.2493861911136,
+      "median_ttft_seconds": 0.19455289300094591,
+      "streaming": [
+        {
+          "ttft_seconds": 0.19327969000005396,
+          "decode_tokens": 127,
+          "decode_seconds": 0.6471357820009871,
+          "chunks": [
+            {
+              "seconds": 0.19327969000005396,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.20730293599990546,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.2294916139981069,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.25224179799988633,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.2745352380006807,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.2966079739999259,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.3195767329998489,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.34257123399947886,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.3645433450001292,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.3870047919990611,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.41029543799959356,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.43251341699942714,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.4555962090016692,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.4775903929985361,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.5007075450012053,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.5225794750003843,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5455841250004596,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.5678544059992419,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5911246030009352,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.6135767480009235,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.635870508998778,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6586747239998658,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.6815385910012992,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7043962159987132,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.7266953469988948,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7495143519990961,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7724993720003113,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7950103090006451,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.8174699139999575,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.840415472001041,
+              "tokens": 2
+            }
+          ]
+        },
+        {
+          "ttft_seconds": 0.19455289300094591,
+          "decode_tokens": 127,
+          "decode_seconds": 0.6470305799994094,
+          "chunks": [
+            {
+              "seconds": 0.19455289300094591,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.20838873400134617,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.23007494000194129,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.25321040299968445,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.27577624100013054,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.2984970930010604,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.32078159500088077,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.34342442600245704,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.3665629880015331,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.3880603390025499,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.41114904999994906,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.43351927299954696,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.45659010500094155,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.4790033690005657,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.501769113001501,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.5246401100012008,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5467462950000481,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.5696371820013155,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5922808530012844,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.615472908000811,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.6372657560023072,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6604913610026415,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.6825904880024609,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7056542200007243,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.7281350560006103,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7511473650010885,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7731919300022128,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7963568240011227,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.8187685280026926,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.8415834730003553,
+              "tokens": 2
+            }
+          ]
+        },
+        {
+          "ttft_seconds": 0.1958774969971273,
+          "decode_tokens": 127,
+          "decode_seconds": 0.647203005002666,
+          "chunks": [
+            {
+              "seconds": 0.1958774969971273,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.20936868999706348,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.23180871499789646,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.25459266799953184,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.27714504599862266,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.29973711499769706,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.322010235999187,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.3447654999981751,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.36757557400051155,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.39007619099720614,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.412644158997864,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.43477245599933667,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.4576559829984035,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.48024150199853466,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.5032663530000718,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.5253763779983274,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5480724509980064,
+              "tokens": 7
+            },
+            {
+              "seconds": 0.5703357809979934,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5935469659998489,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.616302848997293,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.6385159689998545,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6617529149989423,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.6837090970002464,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7064284099978977,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.7294592689977435,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.7524612889974378,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7747338299996045,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.7973351799992088,
+              "tokens": 8
+            },
+            {
+              "seconds": 0.8201010929988115,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.8430805019997933,
+              "tokens": 2
+            }
+          ]
+        }
+      ],
+      "outputs": [
+        "**Main Results**\nThe library tested a new reservation system for six weeks across four branches, processing 1,200 reservations. The system improved efficiency, reducing the median waiting time from nine minutes to six minutes and cutting failed reservations from 48 to 18. The project stayed under budget, spending $17,200 against a $18,000 limit.\n\n**Remaining Risks**\n*   **Data Integrity:** Although an offline queue was added to handle network outages, duplicate entries can still occur when connectivity is restored.\n*   **Accessibility Gaps:** The system has",
+        "**Main Results**\nThe library tested a new reservation system for six weeks across four branches, processing 1,200 reservations. The system improved efficiency, reducing the median waiting time from nine minutes to six minutes and cutting failed reservations from 48 to 18. The project stayed under budget, spending $17,200 against a $18,000 limit.\n\n**Remaining Risks**\n*   **Data Integrity:** Although an offline queue was added to handle network outages, duplicate entries can still occur when connectivity is restored.\n*   **Accessibility Gaps:** The system has",
+        "**Main Results**\nThe library tested a new reservation system for six weeks across four branches, processing 1,200 reservations. The system improved efficiency, reducing the median waiting time from nine minutes to six minutes and cutting failed reservations from 48 to 18. The project stayed under budget, spending $17,200 against a $18,000 limit.\n\n**Remaining Risks**\n*   **Data Integrity:** Although an offline queue was added to handle network outages, duplicate entries can still occur when connectivity is restored.\n*   **Accessibility Gaps:** The system has"
+      ],
+      "token_ids": [
+        [
+          332,
+          6008,
+          17560,
+          332,
+          198,
+          760,
+          6522,
+          12152,
+          264,
+          491,
+          26770,
+          1785,
+          364,
+          4590,
+          5381,
+          3808,
+          2943,
+          22371,
+          11,
+          8427,
+          220,
+          16,
+          11,
+          17,
+          15,
+          15,
+          38731,
+          13,
+          561,
+          1785,
+          12573,
+          14588,
+          11,
+          17191,
+          279,
+          21853,
+          8318,
+          854,
+          494,
+          11292,
+          4276,
+          310,
+          4590,
+          4276,
+          321,
+          13964,
+          4490,
+          38731,
+          494,
+          220,
+          19,
+          23,
+          310,
+          220,
+          16,
+          23,
+          13,
+          561,
+          2313,
+          19013,
+          1172,
+          7786,
+          11,
+          9862,
+          393,
+          16,
+          22,
+          11,
+          17,
+          15,
+          15,
+          2272,
+          264,
+          393,
+          16,
+          23,
+          11,
+          15,
+          15,
+          15,
+          3798,
+          13,
+          271,
+          332,
+          52904,
+          51572,
+          2699,
+          332,
+          198,
+          9,
+          256,
+          2972,
+          1008,
+          62614,
+          64700,
+          10022,
+          449,
+          25331,
+          6951,
+          557,
+          3568,
+          310,
+          3579,
+          3790,
+          680,
+          1098,
+          11,
+          21814,
+          10379,
+          628,
+          1990,
+          11822,
+          948,
+          29270,
+          369,
+          26137,
+          13,
+          198,
+          9,
+          256,
+          2972,
+          82418,
+          469,
+          2538,
+          64700,
+          561,
+          1785,
+          682
+        ],
+        [
+          332,
+          6008,
+          17560,
+          332,
+          198,
+          760,
+          6522,
+          12152,
+          264,
+          491,
+          26770,
+          1785,
+          364,
+          4590,
+          5381,
+          3808,
+          2943,
+          22371,
+          11,
+          8427,
+          220,
+          16,
+          11,
+          17,
+          15,
+          15,
+          38731,
+          13,
+          561,
+          1785,
+          12573,
+          14588,
+          11,
+          17191,
+          279,
+          21853,
+          8318,
+          854,
+          494,
+          11292,
+          4276,
+          310,
+          4590,
+          4276,
+          321,
+          13964,
+          4490,
+          38731,
+          494,
+          220,
+          19,
+          23,
+          310,
+          220,
+          16,
+          23,
+          13,
+          561,
+          2313,
+          19013,
+          1172,
+          7786,
+          11,
+          9862,
+          393,
+          16,
+          22,
+          11,
+          17,
+          15,
+          15,
+          2272,
+          264,
+          393,
+          16,
+          23,
+          11,
+          15,
+          15,
+          15,
+          3798,
+          13,
+          271,
+          332,
+          52904,
+          51572,
+          2699,
+          332,
+          198,
+          9,
+          256,
+          2972,
+          1008,
+          62614,
+          64700,
+          10022,
+          449,
+          25331,
+          6951,
+          557,
+          3568,
+          310,
+          3579,
+          3790,
+          680,
+          1098,
+          11,
+          21814,
+          10379,
+          628,
+          1990,
+          11822,
+          948,
+          29270,
+          369,
+          26137,
+          13,
+          198,
+          9,
+          256,
+          2972,
+          82418,
+          469,
+          2538,
+          64700,
+          561,
+          1785,
+          682
+        ],
+        [
+          332,
+          6008,
+          17560,
+          332,
+          198,
+          760,
+          6522,
+          12152,
+          264,
+          491,
+          26770,
+          1785,
+          364,
+          4590,
+          5381,
+          3808,
+          2943,
+          22371,
+          11,
+          8427,
+          220,
+          16,
+          11,
+          17,
+          15,
+          15,
+          38731,
+          13,
+          561,
+          1785,
+          12573,
+          14588,
+          11,
+          17191,
+          279,
+          21853,
+          8318,
+          854,
+          494,
+          11292,
+          4276,
+          310,
+          4590,
+          4276,
+          321,
+          13964,
+          4490,
+          38731,
+          494,
+          220,
+          19,
+          23,
+          310,
+          220,
+          16,
+          23,
+          13,
+          561,
+          2313,
+          19013,
+          1172,
+          7786,
+          11,
+          9862,
+          393,
+          16,
+          22,
+          11,
+          17,
+          15,
+          15,
+          2272,
+          264,
+          393,
+          16,
+          23,
+          11,
+          15,
+          15,
+          15,
+          3798,
+          13,
+          271,
+          332,
+          52904,
+          51572,
+          2699,
+          332,
+          198,
+          9,
+          256,
+          2972,
+          1008,
+          62614,
+          64700,
+          10022,
+          449,
+          25331,
+          6951,
+          557,
+          3568,
+          310,
+          3579,
+          3790,
+          680,
+          1098,
+          11,
+          21814,
+          10379,
+          628,
+          1990,
+          11822,
+          948,
+          29270,
+          369,
+          26137,
+          13,
+          198,
+          9,
+          256,
+          2972,
+          82418,
+          469,
+          2538,
+          64700,
+          561,
+          1785,
+          682
+        ]
+      ],
+      "speculative_counter_delta": {
+        "vllm:spec_decode_num_drafts_total{engine=\"0\",model_name=\"bonsai2\"}": 116.0,
+        "vllm:spec_decode_num_draft_tokens_total{engine=\"0\",model_name=\"bonsai2\"}": 812.0,
+        "vllm:spec_decode_num_accepted_tokens_total{engine=\"0\",model_name=\"bonsai2\"}": 396.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"0\"}": 96.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"1\"}": 88.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"2\"}": 64.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"3\"}": 48.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"4\"}": 40.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"5\"}": 36.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"6\"}": 24.0
+      }
+    },
+    {
+      "name": "prose",
+      "input_ids": [
+        248045,
+        846,
+        198,
+        7734,
+        264,
+        40630,
+        2716,
+        3255,
+        314,
+        506,
+        3140,
+        4590,
+        41228,
+        883,
+        264,
+        324,
+        55965,
+        51624,
+        852,
+        20539,
+        264,
+        6321,
+        28058,
+        31347,
+        1578,
+        303,
+        279,
+        3725,
+        13,
+        20052,
+        279,
+        51624,
+        264,
+        4839,
+        5307,
+        321,
+        809,
+        440,
+        264,
+        13769,
+        27735,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "input_tokens": 51,
+      "output_tokens": 128,
+      "seconds": [
+        1.4257836479991965,
+        1.4267879160033772,
+        1.429006897000363
+      ],
+      "median_seconds": 1.4267879160033772,
+      "tokens_per_second": 89.71200173782312,
+      "median_decode_tokens_per_second": 101.4794103120089,
+      "median_ttft_seconds": 0.17478352700345567,
+      "streaming": [
+        {
+          "ttft_seconds": 0.17367615799958003,
+          "decode_tokens": 127,
+          "decode_seconds": 1.2514756730015506,
+          "chunks": [
+            {
+              "seconds": 0.17367615799958003,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.18890843600092921,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.21097164100137888,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.23326365200045984,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.255678967001586,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.2785219719989982,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3009542979998514,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3233004190005886,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.34548701899984735,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3681269490007253,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3906358550011646,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.4131439920020057,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.43538509200152475,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.45798223200108623,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.47991695400196477,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5030458670007647,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5249570380001387,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.5479810979995818,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5704620639990026,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.5925190910020319,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6154573890016763,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6375883949986019,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6604564110020874,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.682496056000673,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7052178990015818,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7279639420012245,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7499383649992524,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7725549249989854,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7947349230016698,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8174728369995137,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8400651949996245,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8621479309986171,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.8850324080012797,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9069295389999752,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.9298351659999753,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9521721580022131,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.9750929250003537,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.9974455580013455,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.0198119810011121,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.0422968179991585,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.064903458001936,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.0873814639999182,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.109395917999791,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.1324048280002899,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.155055399001867,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.1776514180019149,
+              "tokens": 5
+            },
+            {
+              "seconds": 1.1998788970013265,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.223067422000895,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.2454904660007742,
+              "tokens": 8
+            },
+            {
+              "seconds": 1.2673748980014352,
+              "tokens": 2
+            },
+            {
+              "seconds": 1.2901180100016063,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.3126724979993014,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.3354873440002848,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.3579937710019294,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.3805589889998373,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.4030637050018413,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.4251518310011306,
+              "tokens": 1
+            }
+          ]
+        },
+        {
+          "ttft_seconds": 0.17478352700345567,
+          "decode_tokens": 127,
+          "decode_seconds": 1.2514853959983157,
+          "chunks": [
+            {
+              "seconds": 0.17478352700345567,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.18980651900346857,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.21210665100079495,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.23410090500328806,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.25658869100152515,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.2791056080022827,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3014389710006071,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.32402675000048475,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.34679323400268913,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3690147330016771,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3915368000016315,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.414086638000299,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.43630367800142267,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.45890188600242254,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.48132384000200545,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5043400110007497,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5264355370018166,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.5488292410009308,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5715337240035296,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.593852316000266,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6163160410033015,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6388658089999808,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6612064520013519,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6838947340002051,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7063286390002759,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7286514500010526,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.751059834001353,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7735563420028484,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7962974150032096,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8181818060002115,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8409939400007715,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8634027640000568,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.8862270700010413,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9084504200000083,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.9308428630029084,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9536064480016648,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.9755354890003218,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.9983934340016276,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.0206766970004537,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.0432986060004623,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.0656452490002266,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.088539046002552,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.110852228001022,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.1333087040002283,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.1563440740028454,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.1785178520003683,
+              "tokens": 5
+            },
+            {
+              "seconds": 1.2012475850024202,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.2234995950020675,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.2464445730001898,
+              "tokens": 8
+            },
+            {
+              "seconds": 1.268761715000437,
+              "tokens": 2
+            },
+            {
+              "seconds": 1.2911492790008197,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.3137242580014572,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.33613758300271,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.3588014030028717,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.3811340960019152,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.403675944002316,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.4262689230017713,
+              "tokens": 1
+            }
+          ]
+        },
+        {
+          "ttft_seconds": 0.17664007699931972,
+          "decode_tokens": 127,
+          "decode_seconds": 1.2518482960003894,
+          "chunks": [
+            {
+              "seconds": 0.17664007699931972,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.19167000800007372,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.21374505499989027,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.23593730400170898,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.25843105999956606,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.2811713030023384,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.30345262400078354,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.32603264299905277,
+              "tokens": 6
+            },
+            {
+              "seconds": 0.34852889900139417,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3708977930000401,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.3935303729995212,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.4156774809998751,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.43798941299974103,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.460880899001495,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.48294081399944844,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5059242940005788,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.5282466669996211,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.5505436780003947,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.5730492050024623,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.5957563960000698,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6180524480005261,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6405106240017631,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.6633354690020496,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.6853566829995543,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7076726650011551,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7305594310018932,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.7530144379998092,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7754035020006995,
+              "tokens": 4
+            },
+            {
+              "seconds": 0.7976538420007273,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8206444410025142,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8426341340018553,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.8652231730011408,
+              "tokens": 1
+            },
+            {
+              "seconds": 0.887404790999426,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9101455349991738,
+              "tokens": 3
+            },
+            {
+              "seconds": 0.9324288860007073,
+              "tokens": 2
+            },
+            {
+              "seconds": 0.9555004770008964,
+              "tokens": 5
+            },
+            {
+              "seconds": 0.9777335469989339,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.000124901001982,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.0226534190005623,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.0451611060016148,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.0675308700010646,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.0902074000005086,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.112525322001602,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.135325097002351,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.1577072710024368,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.1806808399996953,
+              "tokens": 5
+            },
+            {
+              "seconds": 1.2025830420025159,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.2253511250019073,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.2480350660007389,
+              "tokens": 8
+            },
+            {
+              "seconds": 1.2709880950023944,
+              "tokens": 2
+            },
+            {
+              "seconds": 1.2931856040013372,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.3155291770017357,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.3384418339992408,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.360511229999247,
+              "tokens": 1
+            },
+            {
+              "seconds": 1.383652553002321,
+              "tokens": 4
+            },
+            {
+              "seconds": 1.4055917260011483,
+              "tokens": 3
+            },
+            {
+              "seconds": 1.428488372999709,
+              "tokens": 1
+            }
+          ]
+        }
+      ],
+      "outputs": [
+        "The salt spray had long since worn the edges of the lighthouse door, but it was the envelope that made Elias’s hands tremble. It was not the heavy, wax-sealed parchment of the past, nor the crisp, white paper of the present, but a material that felt like cool, smooth glass, shimmering with an iridescent sheen that defied the gray afternoon light. The date stamped in the corner was not in ink, but in a faint, pulsing blue light: *October 14, 2074*. Elias, a man whose joints ached with the dampness of the North",
+        "The salt spray had long since worn the edges of the lighthouse door, but it was the envelope that made Elias’s hands tremble. It was not the heavy, wax-sealed parchment of the past, nor the crisp, white paper of the present, but a material that felt like cool, smooth glass, shimmering with an iridescent sheen that defied the gray afternoon light. The date stamped in the corner was not in ink, but in a faint, pulsing blue light: *October 14, 2074*. Elias, a man whose joints ached with the dampness of the North",
+        "The salt spray had long since worn the edges of the lighthouse door, but it was the envelope that made Elias’s hands tremble. It was not the heavy, wax-sealed parchment of the past, nor the crisp, white paper of the present, but a material that felt like cool, smooth glass, shimmering with an iridescent sheen that defied the gray afternoon light. The date stamped in the corner was not in ink, but in a faint, pulsing blue light: *October 14, 2074*. Elias, a man whose joints ached with the dampness of the North"
+      ],
+      "token_ids": [
+        [
+          760,
+          11679,
+          22186,
+          995,
+          1248,
+          2394,
+          22962,
+          279,
+          12454,
+          314,
+          279,
+          324,
+          55965,
+          5817,
+          11,
+          694,
+          424,
+          557,
+          279,
+          33256,
+          421,
+          1801,
+          82697,
+          725,
+          5888,
+          17621,
+          863,
+          13,
+          1049,
+          557,
+          524,
+          279,
+          8545,
+          11,
+          34830,
+          7559,
+          5657,
+          83132,
+          314,
+          279,
+          3162,
+          11,
+          6130,
+          279,
+          40473,
+          11,
+          4022,
+          5392,
+          314,
+          279,
+          2945,
+          11,
+          694,
+          264,
+          3558,
+          421,
+          6273,
+          1040,
+          6792,
+          11,
+          10558,
+          8720,
+          11,
+          72791,
+          286,
+          440,
+          449,
+          6021,
+          3232,
+          1129,
+          1292,
+          268,
+          421,
+          687,
+          1086,
+          279,
+          17024,
+          12967,
+          3000,
+          13,
+          561,
+          2321,
+          61880,
+          303,
+          279,
+          8858,
+          557,
+          524,
+          303,
+          25570,
+          11,
+          694,
+          303,
+          264,
+          36334,
+          11,
+          53090,
+          286,
+          6105,
+          3000,
+          25,
+          348,
+          29209,
+          220,
+          16,
+          19,
+          11,
+          220,
+          17,
+          15,
+          22,
+          19,
+          19315,
+          82697,
+          11,
+          264,
+          855,
+          6483,
+          33124,
+          264,
+          2320,
+          440,
+          279,
+          38936,
+          2022,
+          314,
+          279,
+          4634
+        ],
+        [
+          760,
+          11679,
+          22186,
+          995,
+          1248,
+          2394,
+          22962,
+          279,
+          12454,
+          314,
+          279,
+          324,
+          55965,
+          5817,
+          11,
+          694,
+          424,
+          557,
+          279,
+          33256,
+          421,
+          1801,
+          82697,
+          725,
+          5888,
+          17621,
+          863,
+          13,
+          1049,
+          557,
+          524,
+          279,
+          8545,
+          11,
+          34830,
+          7559,
+          5657,
+          83132,
+          314,
+          279,
+          3162,
+          11,
+          6130,
+          279,
+          40473,
+          11,
+          4022,
+          5392,
+          314,
+          279,
+          2945,
+          11,
+          694,
+          264,
+          3558,
+          421,
+          6273,
+          1040,
+          6792,
+          11,
+          10558,
+          8720,
+          11,
+          72791,
+          286,
+          440,
+          449,
+          6021,
+          3232,
+          1129,
+          1292,
+          268,
+          421,
+          687,
+          1086,
+          279,
+          17024,
+          12967,
+          3000,
+          13,
+          561,
+          2321,
+          61880,
+          303,
+          279,
+          8858,
+          557,
+          524,
+          303,
+          25570,
+          11,
+          694,
+          303,
+          264,
+          36334,
+          11,
+          53090,
+          286,
+          6105,
+          3000,
+          25,
+          348,
+          29209,
+          220,
+          16,
+          19,
+          11,
+          220,
+          17,
+          15,
+          22,
+          19,
+          19315,
+          82697,
+          11,
+          264,
+          855,
+          6483,
+          33124,
+          264,
+          2320,
+          440,
+          279,
+          38936,
+          2022,
+          314,
+          279,
+          4634
+        ],
+        [
+          760,
+          11679,
+          22186,
+          995,
+          1248,
+          2394,
+          22962,
+          279,
+          12454,
+          314,
+          279,
+          324,
+          55965,
+          5817,
+          11,
+          694,
+          424,
+          557,
+          279,
+          33256,
+          421,
+          1801,
+          82697,
+          725,
+          5888,
+          17621,
+          863,
+          13,
+          1049,
+          557,
+          524,
+          279,
+          8545,
+          11,
+          34830,
+          7559,
+          5657,
+          83132,
+          314,
+          279,
+          3162,
+          11,
+          6130,
+          279,
+          40473,
+          11,
+          4022,
+          5392,
+          314,
+          279,
+          2945,
+          11,
+          694,
+          264,
+          3558,
+          421,
+          6273,
+          1040,
+          6792,
+          11,
+          10558,
+          8720,
+          11,
+          72791,
+          286,
+          440,
+          449,
+          6021,
+          3232,
+          1129,
+          1292,
+          268,
+          421,
+          687,
+          1086,
+          279,
+          17024,
+          12967,
+          3000,
+          13,
+          561,
+          2321,
+          61880,
+          303,
+          279,
+          8858,
+          557,
+          524,
+          303,
+          25570,
+          11,
+          694,
+          303,
+          264,
+          36334,
+          11,
+          53090,
+          286,
+          6105,
+          3000,
+          25,
+          348,
+          29209,
+          220,
+          16,
+          19,
+          11,
+          220,
+          17,
+          15,
+          22,
+          19,
+          19315,
+          82697,
+          11,
+          264,
+          855,
+          6483,
+          33124,
+          264,
+          2320,
+          440,
+          279,
+          38936,
+          2022,
+          314,
+          279,
+          4634
+        ]
+      ],
+      "speculative_counter_delta": {
+        "vllm:spec_decode_num_drafts_total{engine=\"0\",model_name=\"bonsai2\"}": 224.0,
+        "vllm:spec_decode_num_draft_tokens_total{engine=\"0\",model_name=\"bonsai2\"}": 1568.0,
+        "vllm:spec_decode_num_accepted_tokens_total{engine=\"0\",model_name=\"bonsai2\"}": 284.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"0\"}": 128.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"1\"}": 84.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"2\"}": 40.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"3\"}": 16.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"4\"}": 8.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"5\"}": 4.0,
+        "vllm:spec_decode_num_accepted_tokens_per_pos_total{engine=\"0\",model_name=\"bonsai2\",position=\"6\"}": 4.0
+      }
+    }
+  ]
+}

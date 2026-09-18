@@ -1,0 +1,20 @@
+.env
+.venv/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.egg-info/
+build/
+dist/
+
+# Large or generated model artifacts
+artifacts/*
+!artifacts/.gitkeep
+converted/
+*.gguf
+*.safetensors
+*.safetensors.index.json
+
+# Benchmark outputs
+benchmarks/results/
+benchmarks/golden/private/

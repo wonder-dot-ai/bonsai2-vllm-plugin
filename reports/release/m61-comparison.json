@@ -1,0 +1,69 @@
+{
+  "baseline": {
+    "run": "artifacts/m6-english-baseline7",
+    "corpus_sha256": "2941ca80ec120264c041417dba2dce410e6cf7f341227308f87910e62d08075c",
+    "frozen_gate_passed": true,
+    "combined_http_tps": 123.97499886260732,
+    "combined_decode_tps": 158.14538562869816
+  },
+  "candidate": {
+    "run": "artifacts/m61-prefill256",
+    "corpus_sha256": "2941ca80ec120264c041417dba2dce410e6cf7f341227308f87910e62d08075c",
+    "frozen_gate_passed": true,
+    "combined_http_tps": 129.0472750305339,
+    "combined_decode_tps": 158.26867188061806
+  },
+  "cases": [
+    {
+      "name": "code",
+      "http_tps_before": 171.46912065985117,
+      "http_tps_after": 171.32968444747462,
+      "http_speedup": 0.9991868144430905,
+      "decode_tps_before": 228.542543263071,
+      "decode_tps_after": 228.911940360259,
+      "ttft_ms_before": 190.13880000056815,
+      "ttft_ms_after": 191.8644650031638,
+      "all_output_ids_match_baseline": true,
+      "candidate_repeats_exact": true
+    },
+    {
+      "name": "reasoning",
+      "http_tps_before": 134.26638357975926,
+      "http_tps_after": 134.34813801157884,
+      "http_speedup": 1.0006088972506735,
+      "decode_tps_before": 167.5853583845644,
+      "decode_tps_after": 167.67612933618383,
+      "ttft_ms_before": 194.4881150011497,
+      "ttft_ms_after": 194.8251719986729,
+      "all_output_ids_match_baseline": true,
+      "candidate_repeats_exact": true
+    },
+    {
+      "name": "summary",
+      "http_tps_before": 127.54613638443861,
+      "http_tps_after": 152.1917997154662,
+      "http_speedup": 1.1932293994131091,
+      "decode_tps_before": 196.29267617576537,
+      "decode_tps_after": 196.3097531841624,
+      "ttft_ms_before": 356.0246359993471,
+      "ttft_ms_after": 192.98735700067482,
+      "all_output_ids_match_baseline": true,
+      "candidate_repeats_exact": true
+    },
+    {
+      "name": "prose",
+      "http_tps_before": 89.73088324298568,
+      "http_tps_after": 89.72079807276484,
+      "http_speedup": 0.9998876064755371,
+      "decode_tps_before": 101.4601440095038,
+      "decode_tps_after": 101.55254896221426,
+      "ttft_ms_before": 174.1949770002975,
+      "ttft_ms_after": 175.1813429982576,
+      "all_output_ids_match_baseline": true,
+      "candidate_repeats_exact": true
+    }
+  ],
+  "all_outputs_match": true,
+  "all_cases_http_200_pass": false,
+  "all_cases_decode_200_pass": false
+}

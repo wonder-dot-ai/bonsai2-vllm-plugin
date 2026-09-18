@@ -1,0 +1,54 @@
+{
+  "status": "benchmark established; 200 tok/s suite target not achieved",
+  "benchmark_corpus_sha256": "2941ca80ec120264c041417dba2dce410e6cf7f341227308f87910e62d08075c",
+  "selected_run": "artifacts/m6-english-baseline7",
+  "primary_metric": "HTTP output tokens / full request wall time, including prefill",
+  "cases": [
+    {
+      "name": "code",
+      "input_tokens": 42,
+      "output_tokens": 128,
+      "tokens_per_second": 171.46912065985117,
+      "median_decode_tokens_per_second": 228.542543263071,
+      "median_ttft_seconds": 0.19013880000056815,
+      "repeat_token_ids_exact": true
+    },
+    {
+      "name": "reasoning",
+      "input_tokens": 68,
+      "output_tokens": 128,
+      "tokens_per_second": 134.26638357975926,
+      "median_decode_tokens_per_second": 167.5853583845644,
+      "median_ttft_seconds": 0.1944881150011497,
+      "repeat_token_ids_exact": true
+    },
+    {
+      "name": "summary",
+      "input_tokens": 197,
+      "output_tokens": 128,
+      "tokens_per_second": 127.54613638443861,
+      "median_decode_tokens_per_second": 196.29267617576537,
+      "median_ttft_seconds": 0.3560246359993471,
+      "repeat_token_ids_exact": true
+    },
+    {
+      "name": "prose",
+      "input_tokens": 51,
+      "output_tokens": 128,
+      "tokens_per_second": 89.73088324298568,
+      "median_decode_tokens_per_second": 101.4601440095038,
+      "median_ttft_seconds": 0.1741949770002975,
+      "repeat_token_ids_exact": true
+    }
+  ],
+  "combined_http_tokens_per_second": 123.97499886260732,
+  "combined_decode_tokens_per_second": 158.14538562869816,
+  "all_cases_http_200_pass": false,
+  "all_cases_decode_200_pass": false,
+  "frozen_short_http_gate_pass": true,
+  "runtime_unchanged_vs_m6_start": true,
+  "runtime_snapshot_files_checked": 18,
+  "tau2_evaluated": false,
+  "general_real_use_200_validated": false,
+  "new_full_vocabulary_distribution_gate_run": false
+}

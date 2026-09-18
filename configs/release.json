@@ -1,0 +1,39 @@
+{
+  "target": {
+    "repo_id": "the-sweater-cat/bonsai-2-pq2",
+    "revision": "585817989752ac49540871ccc1696b35234586b8",
+    "files": {
+      "CONVERSION_NOTICE.md": "6abb134e6175e9675223a5688bbc8fb4c232233e1cc12dd9c71da6e272139036",
+      "LICENSE": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+      "NOTICE.txt": "de0e0c48fb6f691a31e74f338e3ccf93f9ecdfe2866ab769c4bf8b79a7636a30",
+      "README.md": "fcb7f22602d6739fda753c744b611b998d3291db5d33819cb71872d02c8d7629",
+      "config.json": "663de2161fd4642c0fad4498866a2b232f3c5097ecf5f218c0645cbf3f931871",
+      "conversion.json": "ead1e7b1a794105ceba45aba9f44c55a1af91d36c95ecebca2fa07d39a68ecae",
+      "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+      "model-00001.safetensors": "47caccfd1d90ba7ba0c8322f47f0bca93e136bbf96134e6c1ccacc35a1bd0ac5",
+      "model-00002.safetensors": "43aa482287868bc8d02b0d3df9f81510b5b48b5627ef743270fbb4711f274317",
+      "model-00003.safetensors": "28d7ac7c61c1b4f7253a60360bc3358fd7736745c74f5aa3a23b5040db1155c5",
+      "model-00004.safetensors": "e7bcfd6216a4886d4341a6aa8efe87b5bb48edf52b37ab765171036ee8f0d1e2",
+      "model-00005.safetensors": "84cc97a8dba4fb9a0daebad8268bd0990027c1e3c30603be9e597a99d7b1668a",
+      "model-00006.safetensors": "d52a761befc7b5102b7c6835986c1544b74b140b748ceb34def92d2d9c99ef64",
+      "model-00007.safetensors": "84f367c52e5874c606f3b37919ec7803c4647099756ef1394b176e3a0003f459",
+      "model-00008.safetensors": "175a1f1dee3957dc92c3ab3ca3fe4eae92708dc19c8e29da30f8f486b3799322",
+      "model.safetensors.index.json": "8b1841823799454b7df8fdd851651deb9e392a478f28023d89dafeb2d29ac458",
+      "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "tokenizer_config.json": "854e1f9eaf01518389646815c91e914c02554c2e1b0dd1dc1d184751e22f038c",
+      "SHA256SUMS": "2a42d3d2ee2a48db40e01ac0dc3afe88f101b3b9d8440fe1f739ca8dc88939fe"
+    }
+  },
+  "drafter": {
+    "repo_id": "ProCreations/Ternary-Bonsai-2-27B-DFlash2",
+    "revision": "8cc7a436ef7637a0655a692245c0696713a6af4f",
+    "files": {
+      "LICENSE": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+      "NOTICE": "48da4ef105620c8a5ed6d94853efc4588d914bbd436072ec3117aad7d7729db3",
+      "SHA256SUMS": "fb1bbeb70a7a3fc4524f180a74a3581075431f9753a9ca40e6e9e9b4f29c2478",
+      "config.json": "c5d8a5f9fc457f239199cfd0270ab44502033a1dc443cd373372c0edb049fef8",
+      "manifest.json": "895e74bbb463b9d33a494e0046254870547a881ccea4854057b09f62335b65f8",
+      "model.safetensors": "c6f94f2e8d9b4111645d5bd78845289dbc77b0215f7a139f8bfe55f28cc2a0b9"
+    }
+  }
+}

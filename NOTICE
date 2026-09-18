@@ -1,0 +1,13 @@
+Bonsai 2 vLLM plugin
+Copyright 2026 Bonsai 2 vLLM plugin contributors.
+
+This project implements an out-of-tree adapter for vLLM and uses its Apache-2.0
+licensed Qwen3.5 model implementation. The pinned Prism llama.cpp GGUF reader
+is a separate dependency under its upstream license.
+
+The separately distributed model is derived from Ternary Bonsai 2 by Prism ML,
+itself derived from Qwen3.8-27B by Alibaba Cloud. Their license and attribution
+notices accompany the Hugging Face model. Created using Bonsai by Prism ML.
+
+The optional DFlash2 checkpoint is provided by ProCreations and is downloaded
+separately with its own upstream license and notice.

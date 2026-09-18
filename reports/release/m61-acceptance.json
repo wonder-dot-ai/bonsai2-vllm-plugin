@@ -1,0 +1,19 @@
+{
+  "stage": "M6.1 prefill configuration",
+  "status": "completed for fixed English suite",
+  "selected_max_num_batched_tokens": 256,
+  "runtime_source_unchanged": true,
+  "corpus_sha256": "2941ca80ec120264c041417dba2dce410e6cf7f341227308f87910e62d08075c",
+  "comparison_artifacts": [
+    "artifacts/m61-comparison.json",
+    "artifacts/m61-comparison-repeat.json"
+  ],
+  "all_timed_output_ids_match_baseline": true,
+  "both_frozen_short_http_gates_pass": true,
+  "combined_http_tps": [
+    129.0472750305339,
+    128.9973392517581
+  ],
+  "overall_200_tok_per_second_target_met": false,
+  "m5_cache_configuration_revalidated": false
+}
