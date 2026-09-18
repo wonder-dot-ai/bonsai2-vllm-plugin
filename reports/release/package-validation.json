@@ -4,5 +4,17 @@
   "pinned_gguf_pq2": true,
   "unit_tests_passed": 119,
   "m5_base_command_parity": true,
-  "wheel_environment": "separate venv with dependencies synced from uv.lock; not a second machine"
+  "wheel_environment": "separate venv with dependencies synced from uv.lock; not a second machine",
+  "public_github_clone": true,
+  "clean_clone_revision": "0ca695672482552e8c23f2ed4bc184004383485a",
+  "clean_clone_uv_sync_locked": true,
+  "clean_clone_runtime_doctor_without_source_or_prism": true,
+  "clean_clone_launcher_dry_run_with_public_downloads": true,
+  "anonymous_model_and_drafter_download": true,
+  "target_files_sha256_verified": 19,
+  "drafter_files_sha256_verified": 6,
+  "isolated_wheel_chat_answer": "42",
+  "isolated_wheel_frozen_short_gate_passed": true,
+  "serving_test_assets": "staged checkpoint with identical SHA-256 to the anonymously re-downloaded public files",
+  "separate_machine_tested": false
 }

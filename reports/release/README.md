@@ -23,3 +23,8 @@ Validation hardware: NVIDIA A100-SXM4-40GB; driver 580.126.20, CUDA toolkit
 must be compatible with the locked CUDA 13 PyTorch build on another machine.
 No second machine has been used for verification; clean-path/packaging tests
 on the original A100 are described in `docs/RELEASE.md`.
+
+`hub-publication.json` records public visibility and remote shard-hash checks.
+`package-validation.json` records wheel registration, a fresh public GitHub
+clone/install, anonymous Hub downloads, and actual wheel-based HTTP serving.
+`wheel-serving/` contains the chat response and frozen short gate from that server.

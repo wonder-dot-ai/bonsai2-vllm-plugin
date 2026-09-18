@@ -1,6 +1,6 @@
 # Public release — portable installation and safetensors distribution
 
-Status: preparing and validating publication, 2026-09-18.
+Status: published and validated, 2026-09-18.
 
 Destinations:
 
@@ -56,3 +56,32 @@ commit was `400abc838524b3a9139ce08ee7e77b5717c75f81`; the follow-up updates onl
 the first-start CUDA-toolkit prerequisite and its checksum manifest.
 
 The source pin and every download hash are stored in `configs/release.json`.
+
+## Public code and clean-environment verification
+
+Initial GitHub code commit: `0ca6956` on `main`. The repository and model are
+public. Git commit identity is `shamuiscoding <toebee@snu.ac.kr>`.
+
+- Cloned the public GitHub URL into a new `/tmp` directory and installed with
+  `uv sync --locked` in its own venv. No development checkout was used as a
+  package dependency.
+- Runtime doctor succeeds with deliberately nonexistent GGUF/Prism paths.
+- Re-downloaded target and drafter from public Hub repositories without implicit
+  authentication; verified all 19 target and six draft files against the
+  checked-in manifest.
+- The clean clone's launcher accepts those public-download directories.
+- A separately installed wheel served the staged, hash-identical checkpoint on
+  the A100. Chat answered `42`; all nine frozen continuations plus the repeated
+  case passed. This was an actual HTTP server, not only an import check.
+- First startup in the separate venv compiled FlashInfer CUDA kernels and took
+  several minutes. CUDA toolkit 13.0.88 (`nvcc`) and GCC 11.4.0 were present.
+  This prerequisite is documented in both the README and model card.
+- The owned validation server was stopped after the checks.
+
+These are clean-path/environment checks on the original A100, not a claim of
+validation on a second physical machine. The package and HTTP evidence are in
+`reports/release/package-validation.json` and `reports/release/wheel-serving/`.
+
+Use the `v0.1.0` Git tag for this code release and the Hub revision pinned in
+`configs/release.json` for its model assets. Installation instructions are in
+the root README.

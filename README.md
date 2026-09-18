@@ -24,7 +24,7 @@ The fast configuration uses about 34 GiB of GPU memory. Other GPU models and
 smaller GPUs have not been validated.
 
 ```bash
-git clone https://github.com/wonder-dot-ai/bonsai2-vllm-plugin.git
+git clone --branch v0.1.0 https://github.com/wonder-dot-ai/bonsai2-vllm-plugin.git
 cd bonsai2-vllm-plugin
 uv sync --locked
 uv run --locked python tools/download_models.py
