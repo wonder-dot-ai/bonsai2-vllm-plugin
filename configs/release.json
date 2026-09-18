@@ -1,12 +1,12 @@
 {
   "target": {
     "repo_id": "the-sweater-cat/bonsai-2-pq2",
-    "revision": "585817989752ac49540871ccc1696b35234586b8",
+    "revision": "d65271ba89fe17583f2cba0e1c2fa21328e57f42",
     "files": {
       "CONVERSION_NOTICE.md": "6abb134e6175e9675223a5688bbc8fb4c232233e1cc12dd9c71da6e272139036",
       "LICENSE": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
       "NOTICE.txt": "de0e0c48fb6f691a31e74f338e3ccf93f9ecdfe2866ab769c4bf8b79a7636a30",
-      "README.md": "fcb7f22602d6739fda753c744b611b998d3291db5d33819cb71872d02c8d7629",
+      "README.md": "9a2f82d8841c49d0e5e66ed4babcaa46cc5b46a6964c1e72e424cac1d2691fe4",
       "config.json": "663de2161fd4642c0fad4498866a2b232f3c5097ecf5f218c0645cbf3f931871",
       "conversion.json": "ead1e7b1a794105ceba45aba9f44c55a1af91d36c95ecebca2fa07d39a68ecae",
       "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
@@ -21,7 +21,7 @@
       "model.safetensors.index.json": "8b1841823799454b7df8fdd851651deb9e392a478f28023d89dafeb2d29ac458",
       "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
       "tokenizer_config.json": "854e1f9eaf01518389646815c91e914c02554c2e1b0dd1dc1d184751e22f038c",
-      "SHA256SUMS": "2a42d3d2ee2a48db40e01ac0dc3afe88f101b3b9d8440fe1f739ca8dc88939fe"
+      "SHA256SUMS": "87dd542ac63fbe634095750e5ed189a6ec3ba8196fbac76f914d0a5269dec667"
     }
   },
   "drafter": {

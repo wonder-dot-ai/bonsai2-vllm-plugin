@@ -85,3 +85,12 @@ validation on a second physical machine. The package and HTTP evidence are in
 Use the `v0.1.0` Git tag for this code release and the Hub revision pinned in
 `configs/release.json` for its model assets. Installation instructions are in
 the root README.
+
+## Model card simplification
+
+The public model card was shortened to essential setup, plugin requirements,
+validated scope and attribution. Technical details remain in the plugin docs.
+Only `README.md` and `SHA256SUMS` changed on the Hub; weight hashes are unchanged.
+The current main-branch download manifest pins `d65271ba89fe17583f2cba0e1c2fa21328e57f42` instead of
+`585817989752ac49540871ccc1696b35234586b8`. The existing `v0.1.0` tag keeps its original immutable pin.
+Anonymous re-download verified both changed files and remote shard hashes.
